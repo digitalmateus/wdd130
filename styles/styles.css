@@ -1,5 +1,9 @@
+:root {
+    --page-main-color : rgb(0, 119, 255);
+}
+
 nav {
-    background-color: rgb(0, 119, 255);
+    background-color: var(--page-main-color); /* changed to a variable*/
     padding: 10px;
 }
 
@@ -10,7 +14,7 @@ nav a {
 }
 
 h1 {
-    color: rgb(0, 77, 166);
+    color: var(--page-main-color); /* changed to a variable*/
 }
 
 main img {
@@ -30,7 +34,7 @@ aside {
     margin: 2rem;
     border: 1px solid  rgba(128, 128, 128, 0.016);
     padding: 1rem;
-    background-color:  rgb(0, 119, 255);
+    background-color: var(--page-main-color); /* changed to a variable*/
     color: rgb(255, 255, 255);
     text-align: center;
     }
