@@ -49,4 +49,8 @@ footer {
     border-top: 1px solid rgb(44, 44, 45);
     text-align: center;
     
+    width: 20rem;
+    margin: 2rem;
+    border: 1px solid  rgba(128, 128, 128, 0.016);
+    padding: 1rem;
 }
