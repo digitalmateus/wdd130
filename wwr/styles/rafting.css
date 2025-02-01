@@ -6,6 +6,46 @@
 
 }
 
+header {
+    display: grid;  /* required*/
+    grid-template-columns: 300px 1fr ;
+    max-width: 1200px;
+    align-items: center;
+}
+
+header img {
+   margin: 1rem 5rem 1rem 5rem;
+    width: 120px;
+    height: auto;
+    
+}
+
+.main-nav {
+    display: flex; /* required*/
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: dosis;
+    font-weight: 500;
+       
+}
+
+.main-nav li {
+    flex: 0.5 0.5 auto;
+    
+}
+
+.main-nav a {
+    
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.3rem;
+ 
+}
+.main-nav a:hover {
+    color: var(--accent2-color);
+
+}
+
 h1 {
     font-family: "Libre Baskerville";
     font-size: 3rem;
@@ -32,15 +72,6 @@ p {
     padding: 10px;
     color: var(--accent2-color);
 }
-
-
- .main-nav a {        /*I want to remove the underline only from the main navigation links */
-
-        text-decoration: none; 
-    
-
-}
-
 
 
 .hero {
@@ -95,21 +126,120 @@ p {
     
 } 
  
-.hero img {
-    
+.hero img { 
     width: auto; 
     height: 150px; 
     float: right; 
     position: relative;
     padding: 20px;
-       
-     
-}
-
-.social-icons {
-    text-decoration: none; 
 }
 
 .hero p {
     color: white;
+}
+
+/* ------------------------------------------------------------------------------------*/
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.history h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.history article {
+    display:block;
+}
+
+.history img {
+    float: none;
+    position: absolute;
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15%;
+    margin-right: 15px;
+    margin-left: 400px;
+    margin-top: 10px;
+    }
+
+.history p {
+    margin: 0 10px;
+    line-height: 1.4rem;
+}
+
+
+
+/* ------------------------------------------------------------------------------------*/
+
+.adventure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.adventure h2 {
+    text-align: center;
+}
+
+.adventure section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+.adventure figure {
+    text-align: center;
+    max-width: 15%;
+    margin: 10px;
+}
+
+.adventure img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.adventure figcaption {
+    font-family: Libre Baskerville;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* ------------------------------------------------------------------------------------*/
+
+
+footer {
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    margin-top: 100px;
+    padding: 70px 0 70px 0;
+    background-color: var(--accent2-color);
+    align-items: center;
+}
+footer p {
+    color: var(--primary-color);
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
 }
