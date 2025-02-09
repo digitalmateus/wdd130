@@ -263,9 +263,9 @@ h1 {
 
 .team figcaption {
     font-family: Libre Baskerville;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
-    color:black;
+    color:rgb(27, 21, 55);
 }
 
 .team p {
