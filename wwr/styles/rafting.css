@@ -325,10 +325,10 @@ p {
 
 .contact-form {
     
-    align-items: right;
-    text-align: right;
+    
+    text-align: left;
     margin-top: 20px;
-    padding-right: 100px;
+    padding: 40px;
     font-family: dosis;
     width: 100%;
     
@@ -376,7 +376,8 @@ p {
     text-align: center;
     margin-top: 70px;
     width: 100%;
-    height: auto;
+   
+    
 }
 
 /* ------------------------------------------------------------------------------------*/
