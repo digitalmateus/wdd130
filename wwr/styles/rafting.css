@@ -218,18 +218,179 @@ p {
 }
 
 /* ------------------------------------------------------------------------------------*/
+.teamheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: var(--secondary-color);
+}
 
+.teamheader h2 {
+    font-family: Libre Baskerville;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.team {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.team img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.team figcaption {
+    font-family: Libre Baskerville;
+    font-size: 25px;
+    font-weight: 600;
+    color:black;
+}
+
+.team p {
+    font-family: Dosis;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+    
+}
+
+.companyinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;   
+    
+}
+
+.companyinfo img {
+    width: 60%;
+    border-radius: 5%;
+    
+}
+
+.companyinfo h2 {
+    font-family: Libre Baskerville;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.companyinfo p {
+    font-family: Dosis;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 40px 0 40px;
+    color: var(--accent2-color);
+}
+
+.companyinfo .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.companyinfo .contact img {
+    width: 20px;
+    height: auto;
+    
+}
+/* ------------------------------------------------------------------------------------*/
+
+.final-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    padding: 40px 0 40px 0;
+        
+}
+
+
+.contact-form {
+    
+    align-items: right;
+    text-align: right;
+    margin-top: 20px;
+    padding-right: 100px;
+    font-family: dosis;
+    width: 100%;
+    
+}
+
+.contact-form h2 {
+    font-family: Libre Baskerville;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--primary-color);
+    
+}
+
+
+.contact-form label[for="purpose"] {
+    font-size: 1.5em;
+    font-weight: 200;
+    
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: white;
+    width: 80%;
+    height: 100px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.map {
+   
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------------------------------------------------------*/
 
 footer {
     display: grid;
     grid-template-columns: 80% 1fr;
     margin-top: 100px;
     padding: 70px 0 70px 0;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     align-items: center;
 }
 footer p {
-    color: var(--primary-color);
+    color: black;
     font-size: medium;
     font-weight: bold;
     text-align: center;
