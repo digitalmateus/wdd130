@@ -243,7 +243,7 @@ h1 {
     font-family: Libre Baskerville;
     font-size: 40px;
     font-weight: 600;
-    color: white;
+    color:var(--primary-color);
 }
 
 .team {
@@ -304,7 +304,7 @@ h1 {
     font-size: 18px;
     font-weight: 400;
     padding: 0 40px 0 40px;
-    color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 .companyinfo .contact {
@@ -395,11 +395,11 @@ h1 {
 
 footer {
     display: grid;
-    grid-template-columns: 80% 1fr;
+    grid-template-columns: 1fr 1fr 0.5fr;
     margin-top: 100px;
     padding: 70px 0 70px 0;
     background-color: var(--secondary-color);
-    align-items: center;
+    align-items: right;
 }
 footer p {
     color: black;
@@ -409,8 +409,9 @@ footer p {
 }
 
 .social-icons{
-    display: flex;
-    gap: 15px;
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
 }
 
 .social-icons img {
