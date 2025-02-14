@@ -250,7 +250,7 @@ p {
     color: var(--primary-color);
 }
 
-.adventure figcaption span {
+.adventure span {
     font-family: Dosis;
     font-size: 18px;
     font-weight: 400;
