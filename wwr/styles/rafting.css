@@ -102,7 +102,7 @@ p {
 
 .hero2 h1 {
     color: white; 
-    position: baseline;  
+     
     font-size: 3.5rem;
     text-align: center;
     width: 100%;
@@ -495,7 +495,7 @@ footer {
     margin-top: 100px;
     padding: 70px 0 70px 0;
     background-color: var(--secondary-color);
-    align-items: right;
+    
 }
 footer p {
     color: black;
