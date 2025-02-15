@@ -254,14 +254,14 @@ p {
 }
 
 .homefeatures h2 {
-    font-family: Libre Baskerville;
+    font-family: "Libre Baskerville";
     font-size: 30px;
     font-weight: 600;
     color: var(--primary-color);
 }
 
 .homefeatures figcaption {
-    font-family: Libre Baskerville;
+    font-family: "Libre Baskerville";
     font-size: 18px;
     font-weight: 600;
     padding-top: 10px;
@@ -330,14 +330,14 @@ p {
 }
 
 .calltoaction h2 {
-    font-family: Libre Baskerville;
+    font-family: "Libre Baskerville";
     font-size: 40px;
     font-weight: 600;
     color: rgb(41, 41, 41);
 }
 
 .calltoaction h3 {
-    font-family: Libre Baskerville;
+    font-family: "Libre Baskerville";
     font-size: 30px;
     font-weight: 600;
     color: rgb(41, 41, 41);
