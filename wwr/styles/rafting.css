@@ -92,7 +92,7 @@ p {
     width: 100%;
     height: 100vh;
     position: relative; 
-    background-image: url("../images/hero_transparency_1024.png");
+    background-image: url("../images/rafting16_1024.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;    
@@ -243,19 +243,56 @@ p {
     border-radius: 10%;
 }
 
-.adventure figcaption {
+.homefeatures {
+    display: grid;
+    direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    padding: 40px 0 40px 0;
+}
+
+.homefeatures h2 {
     font-family: Libre Baskerville;
-    font-size: 12px;
+    font-size: 30px;
     font-weight: 600;
     color: var(--primary-color);
 }
 
-.adventure span {
+.homefeatures figcaption {
+    font-family: Libre Baskerville;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: var(--primary-color);
+}
+
+.homefeatures span {
     font-family: Dosis;
     font-size: 18px;
     font-weight: 400;
     color: black;
+    padding: 0 50px 0 50px;
+    text-align: center;
+    align-content: center;
 }
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    
+}
+
+.features img {
+    width: 80%;
+    border-radius: 5%;
+}
+
 
 .calltoaction {
     display:grid;
