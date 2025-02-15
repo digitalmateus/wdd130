@@ -373,7 +373,7 @@ h1 {
 }
 
 .teamheader h2 {
-    font-family: Libre Baskerville;
+    font-family: "Libre Baskerville";
     font-size: 40px;
     font-weight: 600;
     color:var(--primary-color);
@@ -395,7 +395,7 @@ h1 {
 }
 
 .team figcaption {
-    font-family: Libre Baskerville;
+    font-family: "Libre Baskerville";
     font-size: 20px;
     font-weight: 600;
     color:rgb(27, 21, 55);
@@ -426,7 +426,7 @@ h1 {
 }
 
 .companyinfo h2 {
-    font-family: Libre Baskerville;
+    font-family: "Libre Baskerville";
     font-size: 40px;
     font-weight: 600;
     color: var(--primary-color);
@@ -479,7 +479,7 @@ h1 {
 }
 
 .contact-form h2 {
-    font-family: Libre Baskerville;
+    font-family: "Libre Baskerville";
     font-size: 40px;
     font-weight: 600;
     color: var(--primary-color);
